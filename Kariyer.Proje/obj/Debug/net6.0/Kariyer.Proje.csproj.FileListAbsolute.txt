@@ -1,0 +1,12 @@
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\bin\Debug\net6.0\Kariyer.Proje.deps.json
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\bin\Debug\net6.0\Kariyer.Proje.dll
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\bin\Debug\net6.0\Kariyer.Proje.pdb
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\Kariyer.Proje.csproj.AssemblyReference.cache
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\Kariyer.Proje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\Kariyer.Proje.AssemblyInfoInputs.cache
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\Kariyer.Proje.AssemblyInfo.cs
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\Kariyer.Proje.csproj.CoreCompileInputs.cache
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\Kariyer.Proje.dll
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\refint\Kariyer.Proje.dll
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\Kariyer.Proje.pdb
+C:\Users\SEM\Desktop\ERP301SABAH\Kariyer-Proje\Kariyer-Proje\Kariyer.Proje\obj\Debug\net6.0\ref\Kariyer.Proje.dll

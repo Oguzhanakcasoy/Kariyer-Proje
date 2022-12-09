@@ -6,10 +6,9 @@ using System.Threading.Tasks;
 
 namespace Kariyer.Proje.Entities
 {
-    public class AppRole : BaseEntity
+    public class MilitaryStatus : BaseEntity 
     {
         public string Definition { get; set; }
-
-        public List<AppUserRole> AppUserRoles { get; set; }
+        public List<AdvertisementAppUser> AdvertisementAppUsers { get; set; }
     }
 }

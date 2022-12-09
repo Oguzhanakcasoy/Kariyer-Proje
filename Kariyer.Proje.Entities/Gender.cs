@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Kariyer.Proje.Entities
 {
-    internal class Gender
+    public class Gender : BaseEntity
     {
+        public string Definition { get; set; }
+        public List<AppUser> AppUsers { get; set; }
+
     }
 }
