@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Kariyer.Proje")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Kariyer.Proje.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Kariyer.Proje")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Kariyer.Proje")]
+[assembly: System.Reflection.AssemblyProductAttribute("Kariyer.Proje.DataAccess")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Kariyer.Proje.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
