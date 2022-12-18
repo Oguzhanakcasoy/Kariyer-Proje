@@ -1,0 +1,5 @@
+C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.csproj.AssemblyReference.cache
+C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.AssemblyInfoInputs.cache
+C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.AssemblyInfo.cs
+C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.csproj.CoreCompileInputs.cache
