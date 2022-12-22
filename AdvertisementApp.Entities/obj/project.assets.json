@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Common\\AdvertisementApp.Common.csproj",
-      "projectName": "AdvertisementApp.Common",
-      "projectPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Common\\AdvertisementApp.Common.csproj",
+      "projectUniqueName": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj",
+      "projectName": "AdvertisementApp.Entities",
+      "projectPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj",
       "packagesPath": "C:\\Users\\SEM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Common\\obj\\",
+      "outputPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
