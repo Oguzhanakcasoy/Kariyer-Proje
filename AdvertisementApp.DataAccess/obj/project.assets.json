@@ -1156,6 +1156,16 @@
           }
         }
       },
+      "AdvertisementApp.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/AdvertisementApp.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdvertisementApp.Common.dll": {}
+        }
+      },
       "AdvertisementApp.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3511,6 +3521,11 @@
         "version.txt"
       ]
     },
+    "AdvertisementApp.Common/1.0.0": {
+      "type": "project",
+      "path": "../AdvertisementApp.Common/AdvertisementApp.Common.csproj",
+      "msbuildProject": "../AdvertisementApp.Common/AdvertisementApp.Common.csproj"
+    },
     "AdvertisementApp.Entities/1.0.0": {
       "type": "project",
       "path": "../AdvertisementApp.Entities/AdvertisementApp.Entities.csproj",
@@ -3519,6 +3534,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "AdvertisementApp.Common >= 1.0.0",
       "AdvertisementApp.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.1",
@@ -3558,6 +3574,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Common\\AdvertisementApp.Common.csproj": {
+              "projectPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Common\\AdvertisementApp.Common.csproj"
+            },
             "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj": {
               "projectPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj"
             }

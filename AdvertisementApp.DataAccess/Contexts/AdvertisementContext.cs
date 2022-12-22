@@ -1,4 +1,5 @@
-﻿using AdvertisementApp.Entities;
+﻿using AdvertisementApp.DataAccess.Configurations;
+using AdvertisementApp.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,6 +14,20 @@ namespace AdvertisementApp.DataAccess.Contexts
         public AdvertisementContext(DbContextOptions<AdvertisementContext>options):base(options)
         {
 
+
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfiguration(new AdvertisementAppUserConfiguration());
+            modelBuilder.ApplyConfiguration(new AdvertisementAppUserStatusConfiguration());
+            modelBuilder.ApplyConfiguration(new AdvertisementConfiguration());
+            modelBuilder.ApplyConfiguration(new AppRoleCongiguration());
+            modelBuilder.ApplyConfiguration(new AppUserConfiguration());
+            modelBuilder.ApplyConfiguration(new AppUserRoleConfiguration());
+            modelBuilder.ApplyConfiguration(new GenderConfiguration());
+            modelBuilder.ApplyConfiguration(new MilitaryStatusConfiguration());
+            modelBuilder.ApplyConfiguration(new ProvidedServiceConfiguration());
 
         }
         public DbSet<Advertisement> Advertisements { get; set; }
