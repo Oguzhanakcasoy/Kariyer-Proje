@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.DataAccess.Configurations
 {
-    public class AppRoleCongiguration : IEntityTypeConfiguration<AppRole>
+    public class AppRoleConfiguration : IEntityTypeConfiguration<AppRole>
     {
         public void Configure(EntityTypeBuilder<AppRole> builder)
         {
-            builder.Property(x => x.Definition).HasMaxLength(300);
+            builder.Property(x => x.Definition).HasMaxLength(300).IsRequired();
         }
     }
 }

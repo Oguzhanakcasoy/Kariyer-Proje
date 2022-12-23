@@ -12,6 +12,7 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.DataAccess.Repositories
 {
+
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly AdvertisementContext _context;
@@ -72,6 +73,7 @@ namespace AdvertisementApp.DataAccess.Repositories
         }
     }
 }
+
 
 
 

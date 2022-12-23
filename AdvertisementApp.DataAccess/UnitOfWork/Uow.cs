@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.DataAccess.UnitOfWork
 {
-    public class Uow
+    public class Uow : IUow
     {
         private readonly AdvertisementContext _context;
 
@@ -26,8 +26,8 @@ namespace AdvertisementApp.DataAccess.UnitOfWork
 
         public async Task SaveChangesAsync()
         {
-            await _context.SaveChangesAsync(); 
+            await _context.SaveChangesAsync();
         }
-
     }
 }
+

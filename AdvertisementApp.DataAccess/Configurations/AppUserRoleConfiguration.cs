@@ -16,7 +16,7 @@ namespace AdvertisementApp.DataAccess.Configurations
             builder.HasIndex(x => new
             {
                 x.AppRoleId,
-                x.AppUserId,
+                x.AppUserId
             }).IsUnique();
 
             builder.HasOne(x => x.AppRole).WithMany(x => x.AppUserRoles).HasForeignKey(x => x.AppRoleId);

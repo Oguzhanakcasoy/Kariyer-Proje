@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.DataAccess.İnterfaces
 {
-    public  interface IRepository<T> where T : BaseEntity
+    public interface IRepository<T> where T : BaseEntity
     {
         Task<List<T>> GetAllAsync();
         Task<List<T>> GetAllAsync(Expression<Func<T, bool>> filter);
@@ -29,7 +29,5 @@ namespace AdvertisementApp.DataAccess.İnterfaces
         Task CreateAsync(T entity);
 
         void Update(T entity, T unchanged);
-
-
     }
 }

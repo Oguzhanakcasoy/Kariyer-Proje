@@ -14,8 +14,6 @@ namespace AdvertisementApp.DataAccess.Configurations
         public void Configure(EntityTypeBuilder<AdvertisementAppUserStatus> builder)
         {
             builder.Property(x => x.Definition).HasMaxLength(300).IsRequired();
-
-
         }
     }
 }
