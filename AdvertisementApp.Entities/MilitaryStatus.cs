@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace AdvertisementApp.Entities
 {
-    public class MilitaryStatus
+    public class MilitaryStatus : BaseEntity
     {
         public string Definition { get; set; }
-        public List<AdvertisementAppUser> AdvertisementAppUsers { get; set; }
 
+        public List<AdvertisementAppUser> AdvertisementAppUsers { get; set; }
     }
 }

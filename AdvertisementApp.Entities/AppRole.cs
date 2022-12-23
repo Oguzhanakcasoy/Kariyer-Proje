@@ -11,6 +11,5 @@ namespace AdvertisementApp.Entities
         public string Definition { get; set; }
 
         public List<AppUserRole> AppUserRoles { get; set; }
-
     }
 }
