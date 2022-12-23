@@ -10,6 +10,5 @@ namespace AdvertisementApp.Common
     {
         string Message { get; set; }
         ResponseType ResponseType { get; set; }
-    
     }
 }

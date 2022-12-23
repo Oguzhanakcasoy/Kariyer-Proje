@@ -3,3 +3,15 @@ C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\Advertisimen
 C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.AssemblyInfoInputs.cache
 C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.AssemblyInfo.cs
 C:\Users\oguzh\source\repos\Topkapı Üniversitesi\AdvertisementApp\AdvertisimentApp\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\bin\Debug\net6.0\AdvertisementApp.Common.deps.json
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\bin\Debug\net6.0\AdvertisementApp.Common.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\bin\Debug\net6.0\AdvertisementApp.Common.pdb
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.csproj.AssemblyReference.cache
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.AssemblyInfoInputs.cache
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.AssemblyInfo.cs
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.csproj.CoreCompileInputs.cache
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\refint\AdvertisementApp.Common.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\AdvertisementApp.Common.pdb
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Common\obj\Debug\net6.0\ref\AdvertisementApp.Common.dll

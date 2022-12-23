@@ -11,7 +11,5 @@ namespace AdvertisementApp.Common
         public string PropertyName { get; set; }
 
         public string ErrorMessage { get; set; }
-
-
     }
 }
