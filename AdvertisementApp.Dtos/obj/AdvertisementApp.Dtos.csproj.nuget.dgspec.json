@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj": {}
+    "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Dtos\\AdvertisementApp.Dtos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj": {
+    "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Dtos\\AdvertisementApp.Dtos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj",
-        "projectName": "AdvertisementApp.Entities",
-        "projectPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\AdvertisementApp.Entities.csproj",
+        "projectUniqueName": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Dtos\\AdvertisementApp.Dtos.csproj",
+        "projectName": "AdvertisementApp.Dtos",
+        "projectPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Dtos\\AdvertisementApp.Dtos.csproj",
         "packagesPath": "C:\\Users\\SEM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Entities\\obj\\",
+        "outputPath": "C:\\Users\\SEM\\Desktop\\Kariyer-Proje-main\\AdvertisementApp.Dtos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
