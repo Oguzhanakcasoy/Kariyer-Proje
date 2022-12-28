@@ -1,4 +1,6 @@
 ﻿using AdvertisementApp.DataAccess.Contexts;
+using AdvertisementApp.DataAccess.UnitOfWork;
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,7 +20,20 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
             {
                 opt.UseSqlServer(configuration.GetConnectionString("Local"));
             });
-        
+
+
+
+            var mapperConfiguration = new MapperConfiguration (opt =>
+            {
+                //opt.AddProfile(); 
+
+            }); 
+
+            var mapper = mapperConfiguration.CreateMapper();
+            services.AddSingleton(mapper);
+
+            services.AddScoped<IUow, Uow>();
+
         }
 
 
