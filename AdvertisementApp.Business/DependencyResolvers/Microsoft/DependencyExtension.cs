@@ -1,7 +1,10 @@
-﻿using AdvertisementApp.Business.ValidationRules;
+﻿using AdvertisementApp.Business.İnterfaces;
+using AdvertisementApp.Business.Mappings.AutoMapper;
+using AdvertisementApp.Business.Services;
+using AdvertisementApp.Business.ValidationRules;
 using AdvertisementApp.DataAccess.Contexts;
 using AdvertisementApp.DataAccess.UnitOfWork;
-using AdvertisementApp.Dtos.ProvidedServiceDtos;
+using AdvertisementApp.Dtos;
 using AutoMapper;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
@@ -24,27 +27,21 @@ namespace AdvertisementApp.Business.DependencyResolvers.Microsoft
                 opt.UseSqlServer(configuration.GetConnectionString("Local"));
             });
 
-
-
-            var mapperConfiguration = new MapperConfiguration (opt =>
+            var mapperConfiguration = new MapperConfiguration(opt =>
             {
-                //opt.AddProfile(); 
-
-            }); 
+                opt.AddProfile(new ProvidedServiceProfile());
+                //opt.AddProfile();
+            });
 
             var mapper = mapperConfiguration.CreateMapper();
             services.AddSingleton(mapper);
 
             services.AddScoped<IUow, Uow>();
 
-
             services.AddTransient<IValidator<ProvidedServiceCreateDto>, ProvidedServiceCreateDtoValidator>();
             services.AddTransient<IValidator<ProvidedServiceUpdateDto>, ProvidedServiceUpdateDtoValidator>();
 
+            services.AddScoped<IProvidedServiceService, ProvidedServiceService>();
         }
-
-
-
-
     }
 }

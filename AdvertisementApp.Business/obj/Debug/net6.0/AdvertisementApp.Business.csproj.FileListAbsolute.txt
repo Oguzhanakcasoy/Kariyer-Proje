@@ -17,3 +17,5 @@ C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Business\obj\Debug\net6
 C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Business\obj\Debug\net6.0\refint\AdvertisementApp.Business.dll
 C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Business\obj\Debug\net6.0\AdvertisementApp.Business.pdb
 C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Business\obj\Debug\net6.0\ref\AdvertisementApp.Business.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Business\bin\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.Business\bin\Debug\net6.0\AdvertisementApp.Dtos.pdb

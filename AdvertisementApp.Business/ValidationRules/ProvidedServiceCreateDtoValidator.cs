@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using AdvertisementApp.Dtos.ProvidedServiceDtos;
+using AdvertisementApp.Dtos;
 
 namespace AdvertisementApp.Business.ValidationRules
 {
@@ -14,15 +14,7 @@ namespace AdvertisementApp.Business.ValidationRules
         {
             RuleFor(x => x.Description).NotEmpty();
             RuleFor(x => x.ImagePath).NotEmpty();
-
             RuleFor(x => x.Description).NotEmpty();
-
-
-
-
         }
     }
 }
-
-     
- 

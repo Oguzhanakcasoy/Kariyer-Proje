@@ -1,4 +1,4 @@
-﻿using AdvertisementApp.Dtos.ProvidedServiceDtos;
+﻿using AdvertisementApp.Dtos;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
@@ -14,12 +14,8 @@ namespace AdvertisementApp.Business.ValidationRules
         {
             RuleFor(x => x.Id).NotEmpty();
             RuleFor(x => x.Description).NotEmpty();
-
             RuleFor(x => x.Title).NotEmpty();
             RuleFor(x => x.ImagePath).NotEmpty();
-
-
         }
     }
 }
-
