@@ -83,3 +83,11 @@ C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\obj\Debug\net6.0\ref
 C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.pdb
 C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.genruntimeconfig.cache
 C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\obj\Debug\net6.0\ref\AdvertisementApp.UI.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.RazorAssemblyInfo.cache
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\obj\Debug\net6.0\AdvertisementApp.UI.RazorAssemblyInfo.cs
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\bin\Debug\net6.0\AdvertisementApp.UI.staticwebassets.runtime.json
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\bin\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\SEM\Desktop\Kariyer-Proje-main\AdvertisementApp.UI\bin\Debug\net6.0\AdvertisementApp.Dtos.pdb
