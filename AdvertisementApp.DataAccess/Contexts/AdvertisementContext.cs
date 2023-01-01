@@ -1,11 +1,11 @@
-﻿using AdvertisementApp.DataAccess.Configurations;
-using AdvertisementApp.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AdvertisementApp.DataAccess.Configurations;
+using AdvertisementApp.Entities;
 
 namespace AdvertisementApp.DataAccess.Contexts
 {

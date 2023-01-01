@@ -17,4 +17,3 @@ namespace AdvertisementApp.Entities
         public DateTime CreatedDate { get; set; }
     }
 }
-

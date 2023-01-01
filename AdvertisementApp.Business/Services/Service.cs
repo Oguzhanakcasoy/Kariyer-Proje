@@ -1,24 +1,24 @@
-﻿using AdvertisementApp.Business.Extensions;
-using AdvertisementApp.Business.İnterfaces;
-using AdvertisementApp.Common;
-using AdvertisementApp.DataAccess.UnitOfWork;
-using AdvertisementApp.Dtos.İnterfaces;
-using AdvertisementApp.Entities;
-using AutoMapper;
+﻿using AutoMapper;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AdvertisementApp.Business.Extensions;
+using AdvertisementApp.Business.Interfaces;
+using AdvertisementApp.Common;
+using AdvertisementApp.DataAccess.UnitOfWork;
+using AdvertisementApp.Dtos.Interfaces;
+using AdvertisementApp.Entities;
 
 namespace AdvertisementApp.Business.Services
 {
     public class Service<CreateDto, UpdateDto, ListDto, T> : IService<CreateDto, UpdateDto, ListDto, T>
-         where CreateDto : class, IDto, new()
-         where UpdateDto : class, IUpdateDto, new()
-         where ListDto : class, IDto, new()
-         where T : BaseEntity
+        where CreateDto : class, IDto, new()
+        where UpdateDto : class, IUpdateDto, new()
+        where ListDto : class, IDto, new()
+        where T : BaseEntity
     {
         private readonly IMapper _mapper;
         private readonly IValidator<CreateDto> _createDtoValidator;
@@ -42,7 +42,7 @@ namespace AdvertisementApp.Business.Services
                 await _uow.GetRepository<T>().CreateAsync(createdEntity);
                 return new Response<CreateDto>(ResponseType.Success, dto);
             }
-            return new Response<CreateDto>(dto, result.ConvertToCustomValidationError());
+            return new Response<CreateDto>(dto,result.ConvertToCustomValidationError());
         }
 
         public async Task<IResponse<List<ListDto>>> GetAllAsync()
@@ -86,4 +86,3 @@ namespace AdvertisementApp.Business.Services
         }
     }
 }
-

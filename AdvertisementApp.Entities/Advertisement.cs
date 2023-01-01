@@ -19,4 +19,3 @@ namespace AdvertisementApp.Entities
         public List<AdvertisementAppUser> AdvertisementAppUsers { get; set; }
     }
 }
-

@@ -1,18 +1,17 @@
-﻿using AdvertisementApp.DataAccess.Contexts;
-using AdvertisementApp.DataAccess.Enums;
-using AdvertisementApp.DataAccess.İnterfaces;
-using AdvertisementApp.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using AdvertisementApp.Common.Enums;
+using AdvertisementApp.DataAccess.Contexts;
+using AdvertisementApp.DataAccess.Interfaces;
+using AdvertisementApp.Entities;
 
 namespace AdvertisementApp.DataAccess.Repositories
 {
-
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {
         private readonly AdvertisementContext _context;
@@ -47,7 +46,7 @@ namespace AdvertisementApp.DataAccess.Repositories
             return await _context.Set<T>().FindAsync(id);
         }
 
-        public async Task<T> GetByFilterAsync(Expression<Func<T, bool>> filter, bool asNoTracking = false)
+        public async Task<T> GetByFilterAsync(Expression<Func<T,bool>> filter, bool asNoTracking = false)
         {
             return !asNoTracking ? await _context.Set<T>().AsNoTracking().SingleOrDefaultAsync(filter) : await _context.Set<T>().SingleOrDefaultAsync(filter);
         }
@@ -64,7 +63,7 @@ namespace AdvertisementApp.DataAccess.Repositories
 
         public async Task CreateAsync(T entity)
         {
-            await _context.Set<T>().AddAsync(entity);
+           await _context.Set<T>().AddAsync(entity);
         }
 
         public void Update(T entity, T unchanged)
@@ -73,8 +72,3 @@ namespace AdvertisementApp.DataAccess.Repositories
         }
     }
 }
-
-
-
-
-

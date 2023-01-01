@@ -1,12 +1,12 @@
-﻿using AdvertisementApp.DataAccess.Contexts;
-using AdvertisementApp.DataAccess.İnterfaces;
-using AdvertisementApp.DataAccess.Repositories;
-using AdvertisementApp.Entities;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AdvertisementApp.DataAccess.Contexts;
+using AdvertisementApp.DataAccess.Interfaces;
+using AdvertisementApp.DataAccess.Repositories;
+using AdvertisementApp.Entities;
 
 namespace AdvertisementApp.DataAccess.UnitOfWork
 {
@@ -30,4 +30,3 @@ namespace AdvertisementApp.DataAccess.UnitOfWork
         }
     }
 }
-

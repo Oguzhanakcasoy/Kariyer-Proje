@@ -1,9 +1,9 @@
-﻿using AdvertisementApp.Common;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AdvertisementApp.Common;
 
 namespace AdvertisementApp.UI.Extensions
 {
@@ -40,4 +40,3 @@ namespace AdvertisementApp.UI.Extensions
 
     }
 }
-

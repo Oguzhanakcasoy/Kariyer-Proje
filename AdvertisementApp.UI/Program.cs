@@ -1,4 +1,3 @@
-using AdvertisementApp.UI;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
@@ -25,4 +24,3 @@ namespace AdvertisementApp.UI
                 });
     }
 }
-

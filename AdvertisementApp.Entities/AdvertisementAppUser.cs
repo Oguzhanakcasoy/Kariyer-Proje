@@ -8,8 +8,6 @@ namespace AdvertisementApp.Entities
 {
     public class AdvertisementAppUser : BaseEntity
     {
-
-        //1 numaralı idli ilana bir daha başvurmaması için primary key 
         public int AdvertisementId { get; set; }
         public Advertisement Advertisement { get; set; }
 
