@@ -10,3 +10,15 @@ D:\oguzhan\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\
 D:\oguzhan\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\refint\AdvertisementApp.Dtos.dll
 D:\oguzhan\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.pdb
 D:\oguzhan\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\ref\AdvertisementApp.Dtos.dll
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net6.0\AdvertisementApp.Dtos.deps.json
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\bin\Debug\net6.0\AdvertisementApp.Dtos.pdb
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.csproj.AssemblyReference.cache
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.AssemblyInfoInputs.cache
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.AssemblyInfo.cs
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.csproj.CoreCompileInputs.cache
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.dll
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\refint\AdvertisementApp.Dtos.dll
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\AdvertisementApp.Dtos.pdb
+C:\Users\SEM\Desktop\AdvertisementApp-V2\AdvertisementApp\AdvertisementApp.Dtos\obj\Debug\net6.0\ref\AdvertisementApp.Dtos.dll
